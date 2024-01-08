@@ -21,7 +21,6 @@ nav{
     justify-content: space-around;
     align-items: center;
     border: 1px solid black;
-    width: 100%;
     padding: 2rem;
 }
 
@@ -62,4 +61,129 @@ nav{
 .cardi-bi{
 padding: 0.5rem;
 border: none;
+}
+
+.cardi-container{
+    color: #fcf5f5;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    
+}
+
+.cardi-container h1 {
+position: relative;
+left: 20%;
+top: 50%;
+margin: 4rem;
+ font-size: 2.5rem;
+}
+
+.cardi-container p{
+    font-size: 2rem;
+    margin: 4rem;
+}
+
+.cardi-clic{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 35%;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(247, 150, 31);
+}
+
+.bar {
+    margin: 4rem;
+}
+
+.cardi-container-section{
+    display: flex;
+    width: 75%;
+    font-size: 1rem;
+    margin: 2rem;
+}
+
+.cardi-container-section img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2 );
+}
+
+.box-container{
+    margin: 6px;
+}
+
+.cardi-container-second{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 75%;
+    margin: auto;
+}
+
+.cardi-container-second img{
+    width: 100%;
+    height: 16rem;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2 );
+}
+
+.container-second-prof{
+    display: flex;
+    width: 75%;
+    margin: 2rem;
+}
+
+.container-second-prof img{
+    width: 30rem;
+    height: 20rem;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2 );
+
+}
+
+.prof{
+    margin: 16px;
+}
+
+.cardi-container-second-second{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 4rem;
+}
+
+.cardi-container-second-second img{
+    width: 30rem;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2 );
+}
+
+.second-second{
+    margin-left: 2rem;
+}
+
+h1{
+    margin: 2rem;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2 );
+}
+
+.container-detail{
+    width: 75%;
+    margin: auto;
+}
+
+.box-fin{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.box-bi{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: rgb(61, 59, 59);
 }
